@@ -20,7 +20,8 @@ describe("StringCalc", function() {
 
     it("adding 4 numbers", function() {
 
-        expect(this.stringcalc.add(2)).toThrow("AD");
+        //expect(this.stringcalc.add(2)).toThrowAnyError();
+        expect(() => this.stringcalc.add(2)).toThrow("AD");
     });
 
 

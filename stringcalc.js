@@ -15,7 +15,7 @@ module.exports = class StringCalc {
 
  add (x){
      if (this.myArray.length >= 3){
-        throw "AD";
+         throw new Error("AD");
      }
      else
      {
